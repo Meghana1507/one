@@ -38,14 +38,13 @@
     </distributionManagement>
 
     <pluginRepositories>
-        <pluginRepository>
-            <id>maven1</id>
-            <name>Maven.org</name>
-            <url>http://repo1.maven.org/maven2</url>
-        </pluginRepository>
-    </pluginRepositories>
+  <pluginRepository>
+    <id>maven-central</id>
+    <name>Maven Central</name>
+    <url>https://repo1.maven.org/maven2</url> <!-- ✅ Correct -->
+  </pluginRepository>
+</pluginRepositories>
 
-    <!-- ✅ Add this section -->
     <build>
         <plugins>
             <plugin>
